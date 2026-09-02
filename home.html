@@ -1,0 +1,662 @@
+```home.html
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rizal's Travel Guide</title>
+
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+
+<!-- =================================
+     HEADER
+================================== -->
+
+<header class="page-header">
+
+    <p class="student-name">
+        Jumawid, Charles Emerson N.
+        BSCS 2C
+    </p>
+
+    <h1>
+        RIZAL’S LIFE: HIGHER EDUCATION AND LIFE ABROAD
+    </h1>
+
+    <p class="activity">
+        ACTIVITY #4
+    </p>
+
+    <h2>
+        TRAVEL MAP
+    </h2>
+
+</header>
+
+
+<main>
+
+
+    <!-- =================================
+         SIMILARITIES
+    ================================== -->
+
+    <section class="comparison-section">
+
+        <div class="section-title">
+
+            <h2>Travel Map</h2>
+
+            <p>
+                We will see how did he go from here, there, and
+                everywhere
+            </p>
+
+        </div>
+
+
+        <button
+            id="showSimilarities"
+            class="comparison-button">
+
+            SHOW DETAILS
+
+        </button>
+
+
+        
+<div
+    id="similaritiesTable"
+    class="table-container hidden">
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>NO.</th>
+                <th>YEAR / DATE</th>
+                <th>COUNTRY / LOCATION</th>
+                <th>DESCRIPTION / SIGNIFICANCE</th>
+
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+
+            <tr class="comparison-row">
+                <td>1</td>
+                <td>1877–1882</td>
+                <td>Manila, Philippines</td>
+                <td>
+                    <strong>University of Santo Tomas (UST)</strong> —
+                    Rizal studied <strong>Philosophy and Letters</strong>
+                    and later <strong>Medicine</strong>. He eventually
+                    decided to continue his medical education in Spain.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>2</td>
+                <td>May 3, 1882</td>
+                <td>Manila → Singapore</td>
+                <td>
+                    Rizal secretly left the Philippines to continue his
+                    studies in <strong>Spain</strong>, particularly to study
+                    medicine at the Universidad Central de Madrid. He
+                    traveled under the name <strong>José Mercado</strong>.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>3</td>
+                <td>May 9, 1882</td>
+                <td>Singapore</td>
+                <td>
+                    <strong>Transit stop.</strong> Rizal's ship arrived in
+                    Singapore. He went around the city and observed its
+                    surroundings before continuing his journey to Europe.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>4</td>
+                <td>May 17–18, 1882</td>
+                <td>Point Galle & Colombo, Ceylon (Sri Lanka)</td>
+                <td>
+                    <strong>Transit and observation.</strong> Rizal recorded
+                    observations of the places he encountered during his
+                    voyage to Europe.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>5</td>
+                <td>May 27, 1882</td>
+                <td>Aden</td>
+                <td>
+                    <strong>Transit and observation.</strong> Rizal stopped
+                    at Aden during his voyage toward the Suez Canal and
+                    Europe.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>6</td>
+                <td>June 2–7, 1882</td>
+                <td>Suez / Port Said, Egypt</td>
+                <td>
+                    <strong>Transit to Europe.</strong> Rizal passed through
+                    the Suez Canal while traveling toward the Mediterranean
+                    and Europe.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>7</td>
+                <td>June 11, 1882</td>
+                <td>Naples, Italy</td>
+                <td>
+                    <strong>First European ground visited.</strong> Rizal
+                    briefly went around Naples and observed the city before
+                    continuing to France.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>8</td>
+                <td>June 12–15, 1882</td>
+                <td>Marseilles, France</td>
+                <td>
+                    <strong>Transit and sightseeing.</strong> Rizal stayed
+                    briefly in Marseilles and visited places such as the
+                    <strong>Château d'If</strong> before traveling by train
+                    to Barcelona.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>9</td>
+                <td>June 16, 1882</td>
+                <td>Barcelona, Spain</td>
+                <td>
+                    <strong>Beginning of his life in Europe.</strong> Rizal
+                    stayed in Barcelona and wrote <strong>“El Amor
+                    Patrio”</strong>, an early article expressing his love
+                    for his homeland.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>10</td>
+                <td>Sept. 2, 1882</td>
+                <td>Madrid, Spain</td>
+                <td>
+                    <strong>Higher education.</strong> Rizal enrolled at the
+                    <strong>Universidad Central de Madrid</strong> to
+                    continue studying <strong>Medicine</strong> and also
+                    pursued <strong>Philosophy and Letters</strong>.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>11</td>
+                <td>1882–1885</td>
+                <td>Madrid, Spain</td>
+                <td>
+                    <strong>Medical and liberal-arts education.</strong> He
+                    continued his university studies while becoming involved
+                    with Filipino reformists and the
+                    <strong>Propaganda Movement</strong>.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>12</td>
+                <td>June 1883</td>
+                <td>Paris, France</td>
+                <td>
+                    <strong>Medical observation/training.</strong> Rizal
+                    spent about three months in France observing medical
+                    practices and visiting hospitals. He wanted to broaden
+                    his knowledge of medicine.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>13</td>
+                <td>1884</td>
+                <td>Madrid, Spain</td>
+                <td>
+                    <strong>Medical education completed at the
+                    undergraduate/licentiate level.</strong> Rizal earned
+                    his <strong>Licentiate in Medicine</strong> in Madrid.
+                    He continued developing his knowledge and interests in
+                    medicine, literature, and reform.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>14</td>
+                <td>1885</td>
+                <td>Paris, France</td>
+                <td>
+                    <strong>Ophthalmology training.</strong> After his medical
+                    studies, Rizal went to Paris to gain further experience
+                    in <strong>ophthalmology</strong>, the medical specialty
+                    involving the eyes.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>15</td>
+                <td>Feb. 1886</td>
+                <td>Heidelberg, Germany</td>
+                <td>
+                    <strong>Ophthalmology specialization/training.</strong>
+                    Rizal continued his medical training, particularly in
+                    <strong>ophthalmology</strong>, and studied under
+                    <strong>Dr. Otto Becker</strong>. He also became
+                    interested in German science and culture.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>16</td>
+                <td>1886</td>
+                <td>Wilhelmsfeld, Germany</td>
+                <td>
+                    <strong>Study and writing.</strong> Rizal stayed in
+                    Wilhelmsfeld and continued writing and studying German
+                    culture and language.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>17</td>
+                <td>1886</td>
+                <td>Leipzig, Germany</td>
+                <td>
+                    <strong>Study and intellectual development.</strong>
+                    Rizal continued observing German society and pursuing
+                    his intellectual interests while traveling through
+                    Germany.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>18</td>
+                <td>1886–1887</td>
+                <td>Berlin, Germany</td>
+                <td>
+                    <strong>Medicine, research, and writing.</strong> Rizal
+                    continued his medical studies and worked on his first
+                    novel, <strong>Noli Me Tangere</strong>. The novel was
+                    eventually printed in Berlin in March 1887.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>19</td>
+                <td>May 13, 1887</td>
+                <td>Leitmeritz (Litoměřice), Bohemia</td>
+                <td>
+                    <strong>Meeting Ferdinand Blumentritt.</strong> Rizal
+                    finally met his Austrian scholar-friend
+                    <strong>Ferdinand Blumentritt</strong> personally.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>20</td>
+                <td>June 1887</td>
+                <td>Rome, Italy</td>
+                <td>
+                    <strong>Historical and cultural sightseeing.</strong>
+                    Rizal visited important historical sites and monuments
+                    in Rome before returning toward Spain.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>21</td>
+                <td>July 1887</td>
+                <td>Marseilles, France</td>
+                <td>
+                    <strong>Transit back to the Philippines.</strong> Rizal
+                    passed through Marseilles and boarded a ship bound for
+                    the Philippines.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>22</td>
+                <td>Aug. 5, 1887</td>
+                <td>Manila, Philippines</td>
+                <td>
+                    <strong>First return home.</strong> After approximately
+                    five years in Europe, Rizal returned to the Philippines.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>23</td>
+                <td>Aug. 1887–Feb. 1888</td>
+                <td>Calamba / Manila</td>
+                <td>
+                    <strong>Medical practice and family affairs.</strong>
+                    Rizal practiced medicine and treated patients, including
+                    his mother. His novel <strong>Noli Me Tangere</strong>
+                    also caused controversy with Spanish religious
+                    authorities.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>24</td>
+                <td>Feb. 3, 1888</td>
+                <td>Manila → Hong Kong</td>
+                <td>
+                    <strong>Second major journey abroad.</strong> Rizal left
+                    the Philippines again because of increasing pressure and
+                    controversy surrounding <strong>Noli Me Tangere</strong>.
+                    He also intended to continue his medical and intellectual
+                    work abroad.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>25</td>
+                <td>Feb. 1888</td>
+                <td>Hong Kong</td>
+                <td>
+                    <strong>Medical practice, observation, and planning.</strong>
+                    Rizal observed Hong Kong society, met Filipino expatriates
+                    such as <strong>José María Basa</strong>, and later
+                    practiced medicine there.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>26</td>
+                <td>Feb. 18–20, 1888</td>
+                <td>Macau</td>
+                <td>
+                    <strong>Cultural observation.</strong> Rizal visited
+                    Macau with José María Basa, observing Chinese customs,
+                    celebrations, architecture, and daily life.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>27</td>
+                <td>Feb. 28, 1888</td>
+                <td>Yokohama, Japan</td>
+                <td>
+                    <strong>Cultural and social study.</strong> Rizal
+                    arrived in Japan and observed Japanese customs, society,
+                    language, and culture. He also stayed at the Spanish
+                    Legation.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>28</td>
+                <td>March–April 1888</td>
+                <td>Tokyo, Japan</td>
+                <td>
+                    <strong>Cultural study and observation.</strong> Rizal
+                    explored Japanese society, studied some of the language,
+                    and observed Japanese customs, arts, commerce, and
+                    daily life.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>29</td>
+                <td>April 1888</td>
+                <td>San Francisco, California, USA</td>
+                <td>
+                    <strong>American tour/observation.</strong> Rizal entered
+                    the United States and observed American society,
+                    transportation, cities, and landscapes.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>30</td>
+                <td>May 11, 1888</td>
+                <td>Chicago, Illinois, USA</td>
+                <td>
+                    <strong>Tour and observation.</strong> Rizal visited
+                    places of interest in Chicago during his cross-country
+                    journey. The NHCP records his arrival there on
+                    May 11, 1888.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>31</td>
+                <td>May 1888</td>
+                <td>New York, New York, USA</td>
+                <td>
+                    <strong>Final major stop in the United States.</strong>
+                    Rizal observed New York before leaving America for
+                    England.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>32</td>
+                <td>May 24, 1888</td>
+                <td>Liverpool, England</td>
+                <td>
+                    <strong>Arrival in England.</strong> Rizal arrived at
+                    Liverpool before traveling onward to London.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>33</td>
+                <td>May 1888–1890</td>
+                <td>London, England</td>
+                <td>
+                    <strong>Historical research and writing.</strong> This
+                    was one of the <strong>most important stops</strong> in
+                    his intellectual journey. Rizal researched Philippine
+                    history at the <strong>British Museum</strong>, studied
+                    Antonio de Morga's <strong>Sucesos de las Islas
+                    Filipinas</strong>, and prepared annotations for it.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>34</td>
+                <td>1889–1890</td>
+                <td>Paris, France</td>
+                <td>
+                    <strong>Research, writing, and political/intellectual
+                    work.</strong> Rizal traveled between London and Paris,
+                    writing studies and political articles and continuing
+                    his research about Philippine history and society.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>35</td>
+                <td>1890</td>
+                <td>Madrid, Spain</td>
+                <td>
+                    <strong>Work with Filipino reformists.</strong> Rizal
+                    frequently returned to Spain to meet Filipino
+                    intellectuals and reformists, including
+                    <strong>Marcelo H. del Pilar, Mariano Ponce, and
+                    Graciano López Jaena</strong>.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>36</td>
+                <td>1891</td>
+                <td>Biarritz, France</td>
+                <td>
+                    <strong>Writing.</strong> Rizal completed the manuscript
+                    of his second novel, <strong>El Filibusterismo</strong>,
+                    in France in March 1891.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>37</td>
+                <td>1891</td>
+                <td>Brussels, Belgium</td>
+                <td>
+                    <strong>Writing and preparation for publication.</strong>
+                    Rizal worked on and prepared
+                    <strong>El Filibusterismo</strong> for publication while
+                    experiencing financial difficulties.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>38</td>
+                <td>Sept. 1891</td>
+                <td>Ghent, Belgium</td>
+                <td>
+                    <strong>Publication of El Filibusterismo.</strong>
+                    With financial help from friends, Rizal had his second
+                    novel printed in Ghent.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>39</td>
+                <td>1891–1892</td>
+                <td>Hong Kong</td>
+                <td>
+                    <strong>Medical practice and plans for Filipino
+                    settlement.</strong> Rizal practiced medicine and
+                    developed plans connected with establishing a Filipino
+                    community, including his proposed
+                    <strong>“New Calamba”</strong> settlement in British
+                    North Borneo.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>40</td>
+                <td>June 26, 1892</td>
+                <td>Manila, Philippines</td>
+                <td>
+                    <strong>Final return home.</strong> Rizal returned to the
+                    Philippines from Hong Kong. He subsequently became
+                    involved in organizing <strong>La Liga Filipina</strong>.
+                </td>
+            </tr>
+
+
+            <tr class="comparison-row">
+                <td>41</td>
+                <td>July 15, 1892</td>
+                <td>Dapitan, Philippines</td>
+                <td>
+                    <strong>Exile.</strong> After being arrested by Spanish
+                    authorities, Rizal was sent to Dapitan, where he would
+                    spend the next several years in exile.
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+
+    </section>
+
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer class="footer">
+
+        <p>All Rights Reserved. AY 2026–2027.</p>
+
+        <p class="creators-title">inDEVS(´▽`ʃ♡ƪ)</p>
+
+        <p>PDEA.cenji</p>
+        <p>StrayCat</p>
+        <p>Bloo</p>
+        <p>ProtoMarie</p>
+        <p>Jin</p>
+
+    </footer>
+
+
+</main>
+
+
+<!-- =================================
+     JAVASCRIPT
+================================== -->
+
+<script src="home.js"></script>
+
+
+</body>
+
+</html>
+```
